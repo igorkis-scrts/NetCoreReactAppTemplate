@@ -1,0 +1,24 @@
+{
+    "author": "Igor Kiselev",
+    "classifications": [ "Web", "SPA" ],
+    "name": "React SPA Template",
+    "identity": "NetCoreReact",       
+    "shortName": "netcorereact",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "CoreReact",      
+    "preferNameDirectory" : "true",
+    "symbols":{
+        "author": {
+            "type": "parameter",
+            "defaultValue": "Igor Kiselev",
+            "replaces":"AuthorName"
+        },
+        "title": {
+            "type": "parameter",
+            "defaultValue": "react-app",
+            "replaces":"front-app"
+        }
+    }
+}
